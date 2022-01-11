@@ -1,0 +1,113 @@
+.background {
+    background-color: #C6C6C6;
+}
+
+.ed {
+    height: 110vh;
+    display: flex;
+    align-items:center;
+}
+
+
+.e-left {
+    padding-left: 100px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.e-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.e-title {
+    padding-top: 30px;  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.e-t {
+    padding-top: 10px;  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.e-et {
+    padding-top: 30px;  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
+
+.e-sub {
+    font-style: italic;
+}
+
+.box {
+  width: 80%;
+  height: 80%;
+  padding: 10px;
+  margin: 0;
+  background-color: white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+ 
+}
+
+
+
+.abox {
+    width: 70%;
+    height: 50%;
+    margin: 0;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    text-align: center;
+    color: black;
+  }
+
+  .nus-icon {
+      padding-top: 30px;
+      width: 20%;
+      height:  10%;
+      
+  }
+  .tp-icon {
+    padding-top: 30px;
+    width: 30%;
+    height:  15%;
+    
+}
+
+.rh-icon {
+    width:30%;
+    height:25%;
+    
+}
+
+
+
+

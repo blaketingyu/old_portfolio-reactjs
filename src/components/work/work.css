@@ -1,0 +1,76 @@
+
+.job {
+    height:70vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items:center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    
+}
+
+.space {
+    height: 10vh;
+}
+
+
+.w-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    flex-direction: column;
+}
+
+.sub {
+    font-style: italic;
+    font-size: 16px;
+
+}
+
+.w-right {
+    padding-left: 100px;
+    flex: 1;
+    position: relative;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+.w-title {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.j-title {
+  padding: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #535150;
+    
+}
+
+
+
+.logo {
+    height: 30%;
+    width: 50%;
+}
+
+.logo1 {
+    height: 30%;
+    width:30%;
+}
+
+.w-desc {
+    font-size: 17px;
+    padding: 15px;
+    
+}
+
