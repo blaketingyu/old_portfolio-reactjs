@@ -16,6 +16,7 @@ const About = () => {
             </div>
             <div className="a-right">
                 <h1 className="a-title"> My Skills</h1>
+                <p className="a-title"> Based on how proficient I am relatively to other skills</p>
             <div class="skill-bars">
                     <div class="bar">
                     <div class="info">
