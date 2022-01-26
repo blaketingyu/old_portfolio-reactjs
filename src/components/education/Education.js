@@ -15,7 +15,6 @@ const Education = () => {
                         <img src={nus} alt="" className="nus-icon" />
                         <p className="e-t"> Bachelor of Computing (Hons), Computer Science </p>
                         <p className="e-sub"> National University of Singapore</p>
-                        <p> cGPA: <strong>4.10/5.00</strong></p>
                         <p> August 2020 to <strong> Present </strong></p>
                         <img src={tp} alt="" className="tp-icon" />
                         <p className="e-t"> Diploma (Merit) in Digital Forensics </p>
