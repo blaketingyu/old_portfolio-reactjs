@@ -19,7 +19,7 @@ const Education = () => {
                         <img src={tp} alt="" className="tp-icon" />
                         <p className="e-t"> Diploma (Merit) in Digital Forensics </p>
                         <p className="e-sub"> Temasek Polytechnic</p>
-                        <p> cGPA: <strong>3.80/4.00</strong></p>
+                        <p> cGPA: <strong>3.83/4.00</strong></p>
                         <p> February 2015 to February 2018</p>
                     </div>
                 </div>
