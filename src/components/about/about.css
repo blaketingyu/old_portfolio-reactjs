@@ -36,19 +36,43 @@
 }
 
 .a-title {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 50px; 
+}
+
+.a-subHeadingLinux {
+  font-family: 'Courier New', Courier, monospace;
+  padding-bottom: 30px;
+}
+
+.a-subHeading {
+  padding-bottom: 30px;
 }
 
 .a-desc {
     display: flex;
+    flex: 3;
     flex-direction: column;
     padding-top:10px;
     text-align: center;
 }
+
+.a-section {
+  display: flex;
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  padding-top:30px;
+}
+
+.a-bulletPoints {
+  padding-top: 30px;
+}
+
 
 
 .spacing {
