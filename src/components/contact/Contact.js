@@ -43,9 +43,9 @@ const Contact = () => {
                 </div>
             </div>
             <div className="c-right">
-            <p className="c-desc">
+            <div className="c-desc">
                 <b> Contact me </b> for any job opportunities or collaboration. Always open to projects that might interest me!
-            </p>
+            </div>
             <form ref={form} onSubmit={handleSubmit}>
                 <input type="text" placeholder="Name" name="user_name" />
                 <input type="text" placeholder="Subject" name="user_subject" />

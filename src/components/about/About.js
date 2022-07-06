@@ -5,6 +5,7 @@ const About = () => {
     return (
         <div>
              <h1 className="a-title">About</h1>
+             <hr style={{width:'40%', margin:'auto'}}></hr>
             <div className="all">
             <div className="a-left">
                 <div className="a-card">
@@ -25,7 +26,7 @@ const About = () => {
                 <hr></hr>
                 <ul className="a-bulletPoints">
                     <li>I have passion for software engineering and I really hate hardware-related topics</li>
-                    <li>I do frontend related stuff even though I am
+                    <li>I do frontend for fun even though I am
                         <span style={{color:'red'}}> C</span>
                         <span style={{color:'green'}}>O</span>
                         <span style={{color:'blue'}}>L</span>
@@ -39,7 +40,6 @@ const About = () => {
                         <span style={{color:'pink'}}>D</span>
                         </li>
                     <li>Gym is my only personality. I wake up 6 every morning and hit the gym 6 times a week</li>
-                    <li>I work hard and <strong>I PARTY HARD</strong></li>
                 </ul>
                 </div>
                 <div className="a-section">

@@ -1,0 +1,130 @@
+.all {
+    padding-top:50px;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+}
+
+.p-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.p-right {
+    padding-left: 100px;
+    flex: 1;
+    position: relative;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+.p-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.p-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.p-title {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px; 
+}
+
+.p-subHeadingLinux {
+  font-family: 'Courier New', Courier, monospace;
+  padding-bottom: 30px;
+}
+
+.p-subHeading {
+  padding-bottom: 30px;
+}
+
+.p-desc {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    padding-top:10px;
+    text-align: center;
+}
+
+.p-section {
+  display: flex;
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  padding-top:30px;
+}
+
+.p-bulletPoints {
+  padding-top: 30px;
+}
+
+
+
+.spacing {
+    display: flex;
+    height: 100vh;
+    width: 100px;
+    
+}
+
+.box {
+    width: 320px;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    background-color: #A3AAAE;
+    color: #000;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+a {
+    text-decoration: none;
+}
+
+p:hover {
+    color: white;
+}
+
+.bottom {
+    display: flex;
+    align-items:center;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 3rem 18rem;
+  }
+
+  .port-text {
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .container {
+    display: none;
+    transform: translateY(-100%) scale(0);
+    transition: all 0.4s ease-in-out;
+    background-color: var(--color-primary);
+  }
+
+  
